@@ -1,0 +1,889 @@
+﻿Log file open, 08/03/17 22:40:10
+LogInit:Display: Running engine for game: indie
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1683899325) SRandInit(1683899325).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.090780
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.03-15.40.10:428][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.03-15.40.10:428][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.03-15.40.10:439][  0]LogInit: Computer: DESKTOP-F5G54J5
+[2017.08.03-15.40.10:439][  0]LogInit: User: Lomakin
+[2017.08.03-15.40.10:439][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.03-15.40.10:439][  0]LogInit: High frequency timer resolution =3.312787 MHz
+[2017.08.03-15.40.10:439][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.08.03-15.40.10:439][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.03-15.40.10:439][  0]LogMemory: Process Physical Memory: 273.25 MB used, 273.25 MB peak
+[2017.08.03-15.40.10:439][  0]LogMemory: Process Virtual Memory: 267.34 MB used, 267.34 MB peak
+[2017.08.03-15.40.10:439][  0]LogMemory: Physical Memory: 6842.99 MB used,  9524.11 MB free, 16367.11 MB total
+[2017.08.03-15.40.10:439][  0]LogMemory: Virtual Memory: 644.84 MB used,  9524.11 MB free, 134217728.00 MB total
+[2017.08.03-15.40.10:505][  0]LogInit: Using OS detected language (ru-RU).
+[2017.08.03-15.40.10:505][  0]LogInit: Using OS detected locale (ru-RU).
+[2017.08.03-15.40.10:509][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2017.08.03-15.40.10:509][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2017.08.03-15.40.11:484][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.03-15.40.11:506][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 550 Ti' (Feature Level 11_0)
+[2017.08.03-15.40.11:506][  0]LogD3D11RHI:       977/0/8183 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.03-15.40.11:507][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.03-15.40.11:508][  0]LogD3D11RHI:       0/0/8183 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.03-15.40.11:508][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.03-15.40.11:514][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.03-15.40.11:515][  0]LogD3D11RHI:     GPU DeviceId: 0x1244 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.03-15.40.11:515][  0]LogWindows: EnumDisplayDevices:
+[2017.08.03-15.40.11:515][  0]LogWindows:    0. 'NVIDIA GeForce GTX 550 Ti' (P:1 D:1)
+[2017.08.03-15.40.11:515][  0]LogWindows:    1. 'NVIDIA GeForce GTX 550 Ti' (P:0 D:1)
+[2017.08.03-15.40.11:515][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2017.08.03-15.40.11:515][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 550 Ti
+[2017.08.03-15.40.11:515][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.08.03-15.40.11:515][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.08.03-15.40.11:515][  0]LogRHI: Texture pool is 684 MB (70% of 977 MB)
+[2017.08.03-15.40.11:530][  0]LogD3D11RHI:Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.08.03-15.40.11:530][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.03-15.40.11:541][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.03-15.40.11:637][  0]LogShaderCompilers: Guid format shader working directory is 18 characters bigger than the processId version (../../../../../../indie/indie/Intermediate/Shaders/WorkingDirectory/33940/).
+[2017.08.03-15.40.11:638][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Lomakin/AppData/Local/Temp/UnrealShaderWorkingDir/BAAFC26E4670AE85FEC8BFA085957A28/'.
+[2017.08.03-15.40.11:638][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.03-15.40.12:796][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.03-15.40.12:843][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.03-15.40.12:890][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.03-15.40.12:937][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.03-15.40.12:989][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.03-15.40.13:035][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.03-15.40.13:087][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.03-15.40.13:135][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.03-15.40.13:173][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.03-15.40.13:220][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.03-15.40.13:266][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.03-15.40.13:315][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.03-15.40.13:360][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.03-15.40.13:406][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.03-15.40.13:450][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.03-15.40.13:594][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.03-15.40.13:594][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.03-15.40.13:629][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.03-15.40.13:724][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.03-15.40.13:752][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.03-15.40.13:799][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.03-15.40.13:847][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.03-15.40.13:893][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.03-15.40.13:940][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.03-15.40.13:940][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.03-15.40.14:364][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.03-15.40.14:475][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/Lomakin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.03-15.40.14:475][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Lomakin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.03-15.40.14:475][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../indie/indie/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.03-15.40.14:475][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.03-15.40.14:475][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../indie/indie/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.03-15.40.14:475][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.03-15.40.14:495][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.03-15.40.14:507][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Lomakin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.03-15.40.14:529][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.03-15.40.14:530][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.03-15.40.14:530][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.03-15.40.14:530][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.03-15.40.14:904][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.03-15.40.14:984][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.03-15.40.15:185][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.03-15.40.15:226][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.03-15.40.15:268][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.03-15.40.15:268][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.03-15.40.15:268][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.03-15.40.15:805][  0]LogNetVersion: indie , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2634455423)
+[2017.08.03-15.40.15:865][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2017.08.03-15.40.15:901][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.015468 seconds
+[2017.08.03-15.40.15:905][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.03-15.40.15:905][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.03-15.40.15:905][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.03-15.40.15:959][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.03-15.40.18:416][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.03-15.40.18:450][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.03-15.40.18:924][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.03-15.40.19:288][  0]SourceControl: Info Source control is disabled
+[2017.08.03-15.40.19:289][  0]SourceControl: Info Source control is disabled
+[2017.08.03-15.40.19:330][  0]SourceControl: Info Source control is disabled
+[2017.08.03-15.40.19:374][  0]SourceControl: Info Source control is disabled
+[2017.08.03-15.40.19:961][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.03-15.40.20:486][  0]LogEngine: Initializing Engine...
+[2017.08.03-15.40.20:486][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.03-15.40.20:710][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.03-15.40.20:710][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.03-15.40.20:818][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.03-15.40.20:831][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.03-15.40.20:855][  0]LogInit: FAudioDevice initialized.
+[2017.08.03-15.40.20:902][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/Lomakin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.03-15.40.20:922][  0]LogInit: Texture streaming: Enabled
+[2017.08.03-15.40.21:003][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.03-15.40.21:236][  0]LogInit: Transaction tracking system initialized
+[2017.08.03-15.40.21:518][  0]BlueprintLog: New page: Editor Load
+[2017.08.03-15.40.22:426][  0]LocalizationService: Info Localization service is disabled
+[2017.08.03-15.40.23:029][  0]LogConsoleResponse:Display: 
+[2017.08.03-15.40.23:167][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.03-15.40.23:167][  0]LogCook:Display: Mobile HDR setting 0
+[2017.08.03-15.40.23:312][  0]LogFileCache: Scanning file cache for directory 'D:/indie/indie/Content/' took 0.01s
+[2017.08.03-15.40.24:034][  0]SourceControl: Info Source control is disabled
+[2017.08.03-15.40.24:035][  0]Cmd: MAP LOAD FILE="../../../../../../indie/indie/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.03-15.40.24:035][  0]LightingResults: New page: Lighting Build
+[2017.08.03-15.40.24:070][  0]MapCheck: New page: Map Check
+[2017.08.03-15.40.24:070][  0]LightingResults: New page: Lighting Build
+[2017.08.03-15.40.24:272][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.08.03-15.40.24:277][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.03-15.40.24:289][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.03-15.40.24:333][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.55ms to complete.
+[2017.08.03-15.40.24:333][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.298
+[2017.08.03-15.40.24:494][  0]LogCollectionManager: Loaded 0 collections in 0.000762 seconds
+[2017.08.03-15.40.24:568][  0]LogFileCache: Scanning file cache for directory 'D:/indie/indie/Saved/Collections/' took 0.01s
+[2017.08.03-15.40.24:568][  0]LogFileCache: Scanning file cache for directory 'D:/indie/indie/Content/Developers/Lomakin/Collections/' took 0.01s
+[2017.08.03-15.40.24:568][  0]LogFileCache: Scanning file cache for directory 'D:/indie/indie/Content/Collections/' took 0.01s
+[2017.08.03-15.40.24:568][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.03-15.40.24:578][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2329 classes and 491 folders.
+[2017.08.03-15.40.24:639][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.03-15.40.24:678][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.08.03-15.40.24:718][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.03-15.40.24:797][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.03-15.40.24:802][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.03-15.40.24:804][  0]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.03-15.40.24:811][  0]LogSlate: Took 0.000835 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.03-15.40.24:950][  0]LogRenderer: Reallocating scene render targets to support 1056x556 NumSamples 1 (Frame:1).
+[2017.08.03-15.40.25:082][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.03-15.40.25:165][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.03-15.40.25:165][  0]LogLoad: (Engine Initialization) Total time: 16.09 seconds
+[2017.08.03-15.40.25:165][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.08.03-15.40.25:165][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.03-15.40.25:165][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.03-15.40.25:504][  0]LogOcInput: OculusInput pre-init called
+[2017.08.03-15.40.25:504][  0]LogHMD: Starting GearVRController plugin
+[2017.08.03-15.40.25:527][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.03-15.40.25:577][  0]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.03-15.40.26:177][  2]LogAssetRegistry: Asset discovery search completed in 10.3334 seconds
+[2017.08.03-15.40.26:180][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2017.08.03-15.40.26:180][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
+[2017.08.03-15.41.06:294][163]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.03-15.41.06:522][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Textures/2DCharacter_IdleAnimAtlas" FILE="../../../../../../indie/indie/Content/World/Textures/2DCharacter_IdleAnimAtlas.uasset" SILENT=true
+[2017.08.03-15.41.06:538][163]LogSavePackage: Save=14.21ms
+[2017.08.03-15.41.06:538][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/2DCharacter_IdleAnimAtlasE49F747346CF533163CE79916A5F6C76.tmp' to '../../../../../../indie/indie/Content/World/Textures/2DCharacter_IdleAnimAtlas.uasset'
+[2017.08.03-15.41.06:539][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Textures/2DCharacter_IdleAnimAtlas.uasset
+[2017.08.03-15.41.06:556][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/IdleFrames/IdleCycle1" FILE="../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle1.uasset" SILENT=true
+[2017.08.03-15.41.06:566][163]LogSavePackage: Save=8.93ms
+[2017.08.03-15.41.06:566][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/IdleCycle184286E5340DE4D42AFA482B531C5CCA5.tmp' to '../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle1.uasset'
+[2017.08.03-15.41.06:568][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle1.uasset
+[2017.08.03-15.41.06:585][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/IdleFrames/IdleCycle2" FILE="../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle2.uasset" SILENT=true
+[2017.08.03-15.41.06:596][163]LogSavePackage: Save=9.17ms
+[2017.08.03-15.41.06:596][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/IdleCycle21E3FB45A4CDA216D2F41AEA4B5CD53F3.tmp' to '../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle2.uasset'
+[2017.08.03-15.41.06:598][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle2.uasset
+[2017.08.03-15.41.06:615][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/IdleFrames/IdleCycle3" FILE="../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle3.uasset" SILENT=true
+[2017.08.03-15.41.06:628][163]LogSavePackage: Save=11.08ms
+[2017.08.03-15.41.06:628][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/IdleCycle39750DCDA484967436CA5B3A7701EAAF5.tmp' to '../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle3.uasset'
+[2017.08.03-15.41.06:629][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle3.uasset
+[2017.08.03-15.41.06:641][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/IdleFrames/IdleCycle4" FILE="../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle4.uasset" SILENT=true
+[2017.08.03-15.41.06:652][163]LogSavePackage: Save=9.25ms
+[2017.08.03-15.41.06:652][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/IdleCycle4762AA4524588C42D46D3178AEC3F8DF8.tmp' to '../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle4.uasset'
+[2017.08.03-15.41.06:654][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle4.uasset
+[2017.08.03-15.41.06:665][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/IdleFrames/IdleCycle5" FILE="../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle5.uasset" SILENT=true
+[2017.08.03-15.41.06:676][163]LogSavePackage: Save=9.28ms
+[2017.08.03-15.41.06:676][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/IdleCycle550EB90CD41F430E2F8C35DB3B87364CE.tmp' to '../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle5.uasset'
+[2017.08.03-15.41.06:678][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle5.uasset
+[2017.08.03-15.41.06:691][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/IdleFrames/IdleCycle6" FILE="../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle6.uasset" SILENT=true
+[2017.08.03-15.41.06:703][163]LogSavePackage: Save=9.28ms
+[2017.08.03-15.41.06:703][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/IdleCycle6C18DE4754A8E55FC1BA49A8473803999.tmp' to '../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle6.uasset'
+[2017.08.03-15.41.06:705][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle6.uasset
+[2017.08.03-15.41.06:717][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/IdleFrames/IdleCycle7" FILE="../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle7.uasset" SILENT=true
+[2017.08.03-15.41.06:728][163]LogSavePackage: Save=9.31ms
+[2017.08.03-15.41.06:728][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/IdleCycle7AAA596EF47B3F3C8EE70A3B43B372379.tmp' to '../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle7.uasset'
+[2017.08.03-15.41.06:730][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle7.uasset
+[2017.08.03-15.41.06:741][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/IdleFrames/IdleCycle8" FILE="../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle8.uasset" SILENT=true
+[2017.08.03-15.41.06:752][163]LogSavePackage: Save=9.03ms
+[2017.08.03-15.41.06:752][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/IdleCycle86638085242F877E2451F8F96AC2C3517.tmp' to '../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle8.uasset'
+[2017.08.03-15.41.06:754][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/IdleFrames/IdleCycle8.uasset
+[2017.08.03-15.41.06:765][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/IdleAnimation" FILE="../../../../../../indie/indie/Content/World/Sprites/IdleAnimation.uasset" SILENT=true
+[2017.08.03-15.41.06:776][163]LogSavePackage: Save=8.92ms
+[2017.08.03-15.41.06:776][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/IdleAnimation761DCBA64B8ECD705067A5A3DA09BB96.tmp' to '../../../../../../indie/indie/Content/World/Sprites/IdleAnimation.uasset'
+[2017.08.03-15.41.06:778][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/IdleAnimation.uasset
+[2017.08.03-15.41.06:789][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Textures/2DCharacter_RunAnimAtlas" FILE="../../../../../../indie/indie/Content/World/Textures/2DCharacter_RunAnimAtlas.uasset" SILENT=true
+[2017.08.03-15.41.06:810][163]LogSavePackage: Save=18.85ms
+[2017.08.03-15.41.06:810][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/2DCharacter_RunAnimAtlasCB938B09472E5C77A9CDD38EA50BB512.tmp' to '../../../../../../indie/indie/Content/World/Textures/2DCharacter_RunAnimAtlas.uasset'
+[2017.08.03-15.41.06:812][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Textures/2DCharacter_RunAnimAtlas.uasset
+[2017.08.03-15.41.06:823][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/RunFrames/RunCycle_1" FILE="../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_1.uasset" SILENT=true
+[2017.08.03-15.41.06:834][163]LogSavePackage: Save=9.21ms
+[2017.08.03-15.41.06:834][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/RunCycle_17144B4C64BB4AABA6C9A839941A78224.tmp' to '../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_1.uasset'
+[2017.08.03-15.41.06:836][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_1.uasset
+[2017.08.03-15.41.06:847][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/RunFrames/RunCycle_10" FILE="../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_10.uasset" SILENT=true
+[2017.08.03-15.41.06:858][163]LogSavePackage: Save=9.18ms
+[2017.08.03-15.41.06:858][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/RunCycle_10F731755747C4F818D1F04BBC626A0BED.tmp' to '../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_10.uasset'
+[2017.08.03-15.41.06:860][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_10.uasset
+[2017.08.03-15.41.06:871][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/RunFrames/RunCycle_11" FILE="../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_11.uasset" SILENT=true
+[2017.08.03-15.41.06:882][163]LogSavePackage: Save=9.62ms
+[2017.08.03-15.41.06:882][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/RunCycle_11C8256CE642FECF27B652CE97AD9B8BB2.tmp' to '../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_11.uasset'
+[2017.08.03-15.41.06:884][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_11.uasset
+[2017.08.03-15.41.06:895][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/RunFrames/RunCycle_12" FILE="../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_12.uasset" SILENT=true
+[2017.08.03-15.41.06:906][163]LogSavePackage: Save=9.49ms
+[2017.08.03-15.41.06:906][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/RunCycle_123768B8F54E49007B24AA2295CB9A8FEF.tmp' to '../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_12.uasset'
+[2017.08.03-15.41.06:908][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_12.uasset
+[2017.08.03-15.41.06:920][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/RunFrames/RunCycle_13" FILE="../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_13.uasset" SILENT=true
+[2017.08.03-15.41.06:931][163]LogSavePackage: Save=9.65ms
+[2017.08.03-15.41.06:931][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/RunCycle_13EEF9AA384481A338E143C391F15C0248.tmp' to '../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_13.uasset'
+[2017.08.03-15.41.06:933][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_13.uasset
+[2017.08.03-15.41.06:945][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/RunFrames/RunCycle_14" FILE="../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_14.uasset" SILENT=true
+[2017.08.03-15.41.06:986][163]LogSavePackage: Save=9.30ms
+[2017.08.03-15.41.06:986][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/RunCycle_140609A89849277C3DAB5EFDBE0EB85334.tmp' to '../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_14.uasset'
+[2017.08.03-15.41.06:987][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_14.uasset
+[2017.08.03-15.41.06:999][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/RunFrames/RunCycle_15" FILE="../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_15.uasset" SILENT=true
+[2017.08.03-15.41.07:010][163]LogSavePackage: Save=9.35ms
+[2017.08.03-15.41.07:010][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/RunCycle_158A6DA44E4C7732ABCC1DE2BAFFDF329C.tmp' to '../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_15.uasset'
+[2017.08.03-15.41.07:012][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_15.uasset
+[2017.08.03-15.41.07:023][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/RunFrames/RunCycle_16" FILE="../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_16.uasset" SILENT=true
+[2017.08.03-15.41.07:035][163]LogSavePackage: Save=10.37ms
+[2017.08.03-15.41.07:035][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/RunCycle_16098552CF4E65DC29264F2AB289AA6989.tmp' to '../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_16.uasset'
+[2017.08.03-15.41.07:037][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_16.uasset
+[2017.08.03-15.41.07:049][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/RunFrames/RunCycle_2" FILE="../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_2.uasset" SILENT=true
+[2017.08.03-15.41.07:060][163]LogSavePackage: Save=9.14ms
+[2017.08.03-15.41.07:060][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/RunCycle_24FC5AC2448DE2E087785FB857764150A.tmp' to '../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_2.uasset'
+[2017.08.03-15.41.07:061][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_2.uasset
+[2017.08.03-15.41.07:073][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/RunFrames/RunCycle_3" FILE="../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_3.uasset" SILENT=true
+[2017.08.03-15.41.07:084][163]LogSavePackage: Save=9.45ms
+[2017.08.03-15.41.07:084][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/RunCycle_39431B9924138DD25081902A5AA4FC20E.tmp' to '../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_3.uasset'
+[2017.08.03-15.41.07:086][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_3.uasset
+[2017.08.03-15.41.07:097][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/RunFrames/RunCycle_4" FILE="../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_4.uasset" SILENT=true
+[2017.08.03-15.41.07:108][163]LogSavePackage: Save=9.56ms
+[2017.08.03-15.41.07:108][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/RunCycle_47848203A408B02774E47DBA29FC198F9.tmp' to '../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_4.uasset'
+[2017.08.03-15.41.07:110][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_4.uasset
+[2017.08.03-15.41.07:121][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/RunFrames/RunCycle_5" FILE="../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_5.uasset" SILENT=true
+[2017.08.03-15.41.07:132][163]LogSavePackage: Save=9.49ms
+[2017.08.03-15.41.07:132][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/RunCycle_5DB74D63B45E77F0A2A251A9F49673C12.tmp' to '../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_5.uasset'
+[2017.08.03-15.41.07:134][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_5.uasset
+[2017.08.03-15.41.07:145][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/RunFrames/RunCycle_6" FILE="../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_6.uasset" SILENT=true
+[2017.08.03-15.41.07:156][163]LogSavePackage: Save=9.44ms
+[2017.08.03-15.41.07:156][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/RunCycle_6D5B087AC44741BFB0AD47B852DE97C29.tmp' to '../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_6.uasset'
+[2017.08.03-15.41.07:158][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_6.uasset
+[2017.08.03-15.41.07:169][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/RunFrames/RunCycle_7" FILE="../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_7.uasset" SILENT=true
+[2017.08.03-15.41.07:181][163]LogSavePackage: Save=10.13ms
+[2017.08.03-15.41.07:181][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/RunCycle_796C11006400B02EA72DD548DE05A2308.tmp' to '../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_7.uasset'
+[2017.08.03-15.41.07:183][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_7.uasset
+[2017.08.03-15.41.07:195][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/RunFrames/RunCycle_8" FILE="../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_8.uasset" SILENT=true
+[2017.08.03-15.41.07:205][163]LogSavePackage: Save=9.20ms
+[2017.08.03-15.41.07:205][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/RunCycle_8120A897D48AA4F35DDB5CFBA5050ED66.tmp' to '../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_8.uasset'
+[2017.08.03-15.41.07:207][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_8.uasset
+[2017.08.03-15.41.07:219][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/RunFrames/RunCycle_9" FILE="../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_9.uasset" SILENT=true
+[2017.08.03-15.41.07:229][163]LogSavePackage: Save=9.05ms
+[2017.08.03-15.41.07:229][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/RunCycle_935DC1A614CFD4928D2A7A4B69583D292.tmp' to '../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_9.uasset'
+[2017.08.03-15.41.07:231][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/RunFrames/RunCycle_9.uasset
+[2017.08.03-15.41.07:243][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/RunningAnimation" FILE="../../../../../../indie/indie/Content/World/Sprites/RunningAnimation.uasset" SILENT=true
+[2017.08.03-15.41.07:253][163]LogSavePackage: Save=8.81ms
+[2017.08.03-15.41.07:253][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/RunningAnimation0668E4414EF1DFC5C7BF7684FFEB1F43.tmp' to '../../../../../../indie/indie/Content/World/Sprites/RunningAnimation.uasset'
+[2017.08.03-15.41.07:255][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/RunningAnimation.uasset
+[2017.08.03-15.41.07:271][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Textures/2DBackground" FILE="../../../../../../indie/indie/Content/World/Textures/2DBackground.uasset" SILENT=true
+[2017.08.03-15.41.07:286][163]LogSavePackage: Save=13.43ms
+[2017.08.03-15.41.07:286][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/2DBackgroundA39E0C4C4F92B15D3BB94AA069C6BD9A.tmp' to '../../../../../../indie/indie/Content/World/Textures/2DBackground.uasset'
+[2017.08.03-15.41.07:288][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Textures/2DBackground.uasset
+[2017.08.03-15.41.07:299][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/Background_Sprite" FILE="../../../../../../indie/indie/Content/World/Sprites/Background_Sprite.uasset" SILENT=true
+[2017.08.03-15.41.07:311][163]LogSavePackage: Save=9.79ms
+[2017.08.03-15.41.07:311][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/Background_SpriteDEED75724D007FA09FC1289B4BF6DD13.tmp' to '../../../../../../indie/indie/Content/World/Sprites/Background_Sprite.uasset'
+[2017.08.03-15.41.07:313][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/Background_Sprite.uasset
+[2017.08.03-15.41.07:315][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/Sprites/Background_Sprite" FILE="../../../../../../indie/indie/Content/2DSideScroller/Sprites/Background_Sprite.uasset" SILENT=true
+[2017.08.03-15.41.07:325][163]LogSavePackage: Save=3.90ms
+[2017.08.03-15.41.07:325][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/Background_SpriteD92BFFA94DFDDAE7C86472919EAC0DC8.tmp' to '../../../../../../indie/indie/Content/2DSideScroller/Sprites/Background_Sprite.uasset'
+[2017.08.03-15.41.07:326][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/2DSideScroller/Sprites/Background_Sprite.uasset
+[2017.08.03-15.41.07:338][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Textures/2DBackgroundBlockAtlas" FILE="../../../../../../indie/indie/Content/World/Textures/2DBackgroundBlockAtlas.uasset" SILENT=true
+[2017.08.03-15.41.07:350][163]LogSavePackage: Save=10.62ms
+[2017.08.03-15.41.07:350][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/2DBackgroundBlockAtlasF2DD8D6E4CB08A8E2B068585E3AD728D.tmp' to '../../../../../../indie/indie/Content/World/Textures/2DBackgroundBlockAtlas.uasset'
+[2017.08.03-15.41.07:352][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Textures/2DBackgroundBlockAtlas.uasset
+[2017.08.03-15.41.07:367][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/Ledge" FILE="../../../../../../indie/indie/Content/World/Sprites/Ledge.uasset" SILENT=true
+[2017.08.03-15.41.07:377][163]LogSavePackage: Save=7.81ms
+[2017.08.03-15.41.07:377][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/LedgeE55EED504B7ECA80059D06BBF822B735.tmp' to '../../../../../../indie/indie/Content/World/Sprites/Ledge.uasset'
+[2017.08.03-15.41.07:379][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/Ledge.uasset
+[2017.08.03-15.41.07:381][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/Sprites/Ledge" FILE="../../../../../../indie/indie/Content/2DSideScroller/Sprites/Ledge.uasset" SILENT=true
+[2017.08.03-15.41.07:391][163]LogSavePackage: Save=4.36ms
+[2017.08.03-15.41.07:391][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/Ledge3703E10F473238178476BCAA7FF17AA4.tmp' to '../../../../../../indie/indie/Content/2DSideScroller/Sprites/Ledge.uasset'
+[2017.08.03-15.41.07:393][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/2DSideScroller/Sprites/Ledge.uasset
+[2017.08.03-15.41.07:450][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Materials/PrototypingSpriteMaterial" FILE="../../../../../../indie/indie/Content/World/Materials/PrototypingSpriteMaterial.uasset" SILENT=true
+[2017.08.03-15.41.07:466][163]LogSavePackage: Save=14.57ms
+[2017.08.03-15.41.07:466][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/PrototypingSpriteMaterial019DF8EF497CE10EB7B22092D150C351.tmp' to '../../../../../../indie/indie/Content/World/Materials/PrototypingSpriteMaterial.uasset'
+[2017.08.03-15.41.07:468][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Materials/PrototypingSpriteMaterial.uasset
+[2017.08.03-15.41.07:479][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/PrototypingSprite" FILE="../../../../../../indie/indie/Content/World/Sprites/PrototypingSprite.uasset" SILENT=true
+[2017.08.03-15.41.07:488][163]LogSavePackage: Save=7.07ms
+[2017.08.03-15.41.07:488][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/PrototypingSprite946D31A44C36237429C71D947B7D0139.tmp' to '../../../../../../indie/indie/Content/World/Sprites/PrototypingSprite.uasset'
+[2017.08.03-15.41.07:490][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/PrototypingSprite.uasset
+[2017.08.03-15.41.07:501][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Textures/2DBackgroundTile" FILE="../../../../../../indie/indie/Content/World/Textures/2DBackgroundTile.uasset" SILENT=true
+[2017.08.03-15.41.07:510][163]LogSavePackage: Save=7.04ms
+[2017.08.03-15.41.07:510][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/2DBackgroundTileA529D1DA40498F7BD6549CA0F3D34537.tmp' to '../../../../../../indie/indie/Content/World/Textures/2DBackgroundTile.uasset'
+[2017.08.03-15.41.07:512][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Textures/2DBackgroundTile.uasset
+[2017.08.03-15.41.08:818][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter" FILE="../../../../../../indie/indie/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset" SILENT=true
+[2017.08.03-15.41.08:895][163]LogSavePackage: Save=69.14ms
+[2017.08.03-15.41.08:895][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/2DSideScrollerCharacter2F5116384DA5C16A57E8AB9A62FAC0D3.tmp' to '../../../../../../indie/indie/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2017.08.03-15.41.08:897][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2017.08.03-15.41.08:900][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter" FILE="../../../../../../indie/indie/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset" SILENT=true
+[2017.08.03-15.41.08:982][163]LogSavePackage: Save=80.17ms
+[2017.08.03-15.41.08:982][163]LogSavePackage: Moving '../../../../../../indie/indie/Saved/2DSideScrollerCharacterDF4611E6441321C3DC5C9CAAE41649CA.tmp' to '../../../../../../indie/indie/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2017.08.03-15.41.08:983][163]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2017.08.03-15.41.12:742][591]LogMetaData: Removing '/Game/Bp/2DSideScrollerOverview.2DSideScrollerOverview_C' ref from Metadata '/Game/2DSideScrollerBP/2DSideScrollerOverview.PackageMetaData'
+[2017.08.03-15.41.12:742][591]LogMetaData: Removing '/Game/Bp/2DSideScrollerOverview.SKEL_2DSideScrollerOverview_C' ref from Metadata '/Game/2DSideScrollerBP/2DSideScrollerOverview.PackageMetaData'
+[2017.08.03-15.41.12:747][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.41.12:747][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:InpTchEvt_Released' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.41.12:747][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:InpTchEvt_Pressed' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.41.12:747][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_5' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.41.12:747][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.41.12:747][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:UserConstructionScript' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.41.12:747][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ReceiveBeginPlay' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.41.12:747][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ReceiveTick' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.41.12:747][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:SideViewCameraComponent' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.41.12:747][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:CameraBoom' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.41.12:747][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:bisMovingRight' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.41.12:747][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C:bisMovingRight' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.41.12:747][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C:CameraBoom' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.41.12:747][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C:SideViewCameraComponent' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.41.12:747][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C:ReceiveTick' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.41.12:747][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C:ReceiveBeginPlay' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.41.12:747][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C:UserConstructionScript' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.41.12:747][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.41.12:747][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_5' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.41.12:747][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.41.12:752][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerGameMode.2DSideScrollerGameMode_C' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.PackageMetaData'
+[2017.08.03-15.41.12:752][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerGameMode.2DSideScrollerGameMode_C:DefaultSceneRoot' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.PackageMetaData'
+[2017.08.03-15.41.12:752][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerGameMode.2DSideScrollerGameMode_C:UserConstructionScript' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.PackageMetaData'
+[2017.08.03-15.41.12:752][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerGameMode.SKEL_2DSideScrollerGameMode_C:DefaultSceneRoot' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.PackageMetaData'
+[2017.08.03-15.41.12:752][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerGameMode.SKEL_2DSideScrollerGameMode_C:UserConstructionScript' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.PackageMetaData'
+[2017.08.03-15.41.12:752][591]LogMetaData: Removing '/Game/Bp/Blueprints/2DSideScrollerGameMode.SKEL_2DSideScrollerGameMode_C' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.PackageMetaData'
+[2017.08.03-15.41.13:052][591]LogMetaData: Removing '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' ref from Metadata '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.PackageMetaData'
+[2017.08.03-15.41.13:052][591]LogMetaData: Removing '/Game/Bp/Maps/2DSideScrollerExampleMap.SKEL_2DSideScrollerExampleMap_C' ref from Metadata '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.PackageMetaData'
+[2017.08.03-15.41.13:075][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/2DSideScrollerOverview" FILE="../../../../../../indie/indie/Content/Bp/2DSideScrollerOverview.uasset" SILENT=true
+[2017.08.03-15.41.13:087][591]LogSavePackage: Save=9.85ms
+[2017.08.03-15.41.13:087][591]LogSavePackage: Moving '../../../../../../indie/indie/Saved/2DSideScrollerOverviewDE8821C347A62F4A9485BA99F64FBD69.tmp' to '../../../../../../indie/indie/Content/Bp/2DSideScrollerOverview.uasset'
+[2017.08.03-15.41.13:088][591]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/2DSideScrollerOverview.uasset
+[2017.08.03-15.41.13:091][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Blueprints/2DSideScrollerCharacter" FILE="../../../../../../indie/indie/Content/Bp/Blueprints/2DSideScrollerCharacter.uasset" SILENT=true
+[2017.08.03-15.41.13:161][591]LogSavePackage: Save=69.16ms
+[2017.08.03-15.41.13:161][591]LogSavePackage: Moving '../../../../../../indie/indie/Saved/2DSideScrollerCharacter4B02879045A407A80FAAACBAC65D1199.tmp' to '../../../../../../indie/indie/Content/Bp/Blueprints/2DSideScrollerCharacter.uasset'
+[2017.08.03-15.41.13:163][591]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Blueprints/2DSideScrollerCharacter.uasset
+[2017.08.03-15.41.13:165][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Blueprints/2DSideScrollerGameMode" FILE="../../../../../../indie/indie/Content/Bp/Blueprints/2DSideScrollerGameMode.uasset" SILENT=true
+[2017.08.03-15.41.13:175][591]LogSavePackage: Save=8.09ms
+[2017.08.03-15.41.13:175][591]LogSavePackage: Moving '../../../../../../indie/indie/Saved/2DSideScrollerGameMode9E6AFCE54CB34462F07B9A8691F4FBD3.tmp' to '../../../../../../indie/indie/Content/Bp/Blueprints/2DSideScrollerGameMode.uasset'
+[2017.08.03-15.41.13:177][591]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Blueprints/2DSideScrollerGameMode.uasset
+[2017.08.03-15.41.13:179][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Maps/2DSideScrollerExampleMap_BuiltData" FILE="../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap_BuiltData.uasset" SILENT=true
+[2017.08.03-15.41.13:232][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Maps/2DSideScrollerExampleMap" FILE="../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.03-15.41.13:337][591]LogSavePackage: Save=92.18ms
+[2017.08.03-15.41.13:337][591]LogSavePackage: Moving '../../../../../../indie/indie/Saved/2DSideScrollerExampleMap290F25A144D2EB95C95EDC8B0F08D324.tmp' to '../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap'
+[2017.08.03-15.41.13:339][591]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap
+[2017.08.03-15.41.13:354][591]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.170
+[2017.08.03-15.41.13:356][591]EditorErrors: New page: Save Output
+[2017.08.03-15.41.13:356][591]EditorErrors:Warning: Warning Missing filename
+[2017.08.03-15.41.28:303][ 70]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.08.03-15.41.29:047][ 70]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.03-15.41.33:834][456]LogSlate: Took 0.019868 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.03-15.41.34:231][457]LogSlate: Took 0.010927 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.03-15.41.36:563][605]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.08.03-15.41.40:159][911]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-15.41.40:188][911]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.08.03-15.41.40:189][911]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-15.41.40:189][911]PIE: New page: PIE session: 2DSideScrollerExampleMap (Aug 4, 2017, 5:41:40 AM)
+[2017.08.03-15.41.40:189][911]LogPlayLevel: Creating play world package: /Game/Bp/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.08.03-15.41.40:192][911]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002528s)
+[2017.08.03-15.41.40:192][911]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.08.03-15.41.40:192][911]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2017.08.03-15.41.40:192][911]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/Bp/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003375s)
+[2017.08.03-15.41.40:219][911]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.03-15.41.40:228][911]LogInit: FAudioDevice initialized.
+[2017.08.03-15.41.40:273][911]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.03-15.41.40:277][911]LogWorld: Bringing World /Game/Bp/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.08.03-22.41.40
+[2017.08.03-15.41.40:277][911]LogWorld: Bringing up level for play took: 0.001664
+[2017.08.03-15.41.40:377][911]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.08.03-15.41.40:391][911]PIE: Info Play in editor start time for /Game/Bp/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.397
+[2017.08.03-15.41.40:391][911]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.08.03-15.41.43:884][326]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.08.03-15.41.43:918][326]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.08.03-15.41.46:584][614]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2017.08.03-15.41.50:011][ 13]Cmd: DELETE
+[2017.08.03-15.41.50:011][ 13]Cmd: ACTOR DELETE
+[2017.08.03-15.41.50:022][ 13]LogEditorActor: Deleted Actor: TextRenderActor
+[2017.08.03-15.41.50:037][ 13]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.08.03-15.42.13:905][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Maps/2DSideScrollerExampleMap" FILE="../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.03-15.42.14:050][424]LogSavePackage: Save=125.00ms
+[2017.08.03-15.42.14:050][424]LogSavePackage: Moving '../../../../../../indie/indie/Saved/2DSideScrollerExampleMap081EC59846F1587A2A897882776482B0.tmp' to '../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap'
+[2017.08.03-15.42.14:053][424]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap
+[2017.08.03-15.42.14:068][424]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.215
+[2017.08.03-15.42.14:074][424]Cmd: MAP LOAD FILE="../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.03-15.42.14:074][424]LightingResults: New page: Lighting Build
+[2017.08.03-15.42.14:075][424]LoadErrors: New page: Loading map: 2DSideScrollerExampleMap.umap
+[2017.08.03-15.42.14:075][424]MapCheck: New page: Map Check
+[2017.08.03-15.42.14:075][424]LightingResults: New page: Lighting Build
+[2017.08.03-15.42.14:146][424]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.08.03-15.42.14:203][424]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.03-15.42.14:235][424]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.03-15.42.14:285][424]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.868ms to complete.
+[2017.08.03-15.42.14:285][424]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.213
+[2017.08.03-15.42.30:585][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Maps/2DSideScrollerExampleMap" FILE="../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.03-15.42.30:733][ 45]LogSavePackage: Save=126.04ms
+[2017.08.03-15.42.30:733][ 45]LogSavePackage: Moving '../../../../../../indie/indie/Saved/2DSideScrollerExampleMapF7B767AD420F396297224D8855C5BF25.tmp' to '../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap'
+[2017.08.03-15.42.30:733][ 45]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap
+[2017.08.03-15.42.31:558][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Maps/2DSideScrollerExampleMap" FILE="../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.03-15.42.31:722][139]LogSavePackage: Save=147.09ms
+[2017.08.03-15.42.31:722][139]LogSavePackage: Moving '../../../../../../indie/indie/Saved/2DSideScrollerExampleMapCB4B58784BD2C7D38E2BEC9917072E7F.tmp' to '../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap'
+[2017.08.03-15.42.31:723][139]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap
+[2017.08.03-15.42.33:209][310]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-15.42.33:226][310]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.08.03-15.42.33:226][310]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-15.42.33:226][310]PIE: New page: PIE session: 2DSideScrollerExampleMap (Aug 4, 2017, 5:42:33 AM)
+[2017.08.03-15.42.33:226][310]LogPlayLevel: Creating play world package: /Game/Bp/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.08.03-15.42.33:228][310]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002405s)
+[2017.08.03-15.42.33:229][310]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.08.03-15.42.33:229][310]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2017.08.03-15.42.33:229][310]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/Bp/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003206s)
+[2017.08.03-15.42.33:249][310]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.03-15.42.33:258][310]LogInit: FAudioDevice initialized.
+[2017.08.03-15.42.33:287][310]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.03-15.42.33:290][310]LogWorld: Bringing World /Game/Bp/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.08.03-22.42.33
+[2017.08.03-15.42.33:290][310]LogWorld: Bringing up level for play took: 0.001571
+[2017.08.03-15.42.33:291][310]PIE: Info Play in editor start time for /Game/Bp/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.703
+[2017.08.03-15.42.33:291][310]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.08.03-15.42.35:984][632]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.08.03-15.42.36:019][632]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.08.03-15.43.10:818][677]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.03-15.43.10:818][677]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.03-15.43.14:833][108]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.03-15.43.14:833][108]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.03-15.43.16:741][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/Ladder" FILE="../../../../../../indie/indie/Content/World/Sprites/Ladder.uasset" SILENT=true
+[2017.08.03-15.43.16:751][325]LogSavePackage: Save=8.04ms
+[2017.08.03-15.43.16:751][325]LogSavePackage: Moving '../../../../../../indie/indie/Saved/Ladder71C9EDE945B3348A9FEAAFB24B0F524F.tmp' to '../../../../../../indie/indie/Content/World/Sprites/Ladder.uasset'
+[2017.08.03-15.43.16:753][325]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/Ladder.uasset
+[2017.08.03-15.43.17:417][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/Ladder" FILE="../../../../../../indie/indie/Content/World/Sprites/Ladder.uasset" SILENT=true
+[2017.08.03-15.43.17:427][381]LogSavePackage: Save=5.32ms
+[2017.08.03-15.43.17:427][381]LogSavePackage: Moving '../../../../../../indie/indie/Saved/LadderC9FBEC0D46622FA26312C7AF5332CE93.tmp' to '../../../../../../indie/indie/Content/World/Sprites/Ladder.uasset'
+[2017.08.03-15.43.17:428][381]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/Ladder.uasset
+[2017.08.03-15.43.41:850][814]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.03-15.44.15:318][969]LogRenderer: Reallocating scene render targets to support 1336x888 NumSamples 1 (Frame:1).
+[2017.08.03-15.45.30:921][929]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Maps/2DSideScrollerExampleMap" FILE="../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.03-15.45.31:082][929]LogSavePackage: Save=143.23ms
+[2017.08.03-15.45.31:082][929]LogSavePackage: Moving '../../../../../../indie/indie/Saved/2DSideScrollerExampleMap97ED0E3A4DE5424C45C8C893D75E5707.tmp' to '../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap'
+[2017.08.03-15.45.31:082][929]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap
+[2017.08.03-15.49.22:699][378]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Lomakin/Desktop/Stairs.png)
+[2017.08.03-15.49.22:710][378]LogTexture:Display: Building textures: Stairs (AutoDXT, 256X256)
+[2017.08.03-15.49.25:766][595]LogTexture:Display: Building textures: Stairs (BGRA8, 256X256)
+[2017.08.03-15.49.31:444][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Textures/Stairs" FILE="../../../../../../indie/indie/Content/World/Textures/Stairs.uasset" SILENT=true
+[2017.08.03-15.49.31:456][ 23]LogSavePackage: Save=10.27ms
+[2017.08.03-15.49.31:456][ 23]LogSavePackage: Moving '../../../../../../indie/indie/Saved/StairsEB4EAA2F49C6271963458AB0F0CAEC9D.tmp' to '../../../../../../indie/indie/Content/World/Textures/Stairs.uasset'
+[2017.08.03-15.49.31:458][ 23]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Textures/Stairs.uasset
+[2017.08.03-15.49.34:068][232]LogMaterial: Missing cached shader map for material Stairs_Mat, compiling. 
+[2017.08.03-15.49.35:365][318]Cmd: TRANSACTION UNDO
+[2017.08.03-15.49.35:365][318]LogEditorTransaction: Undo Create Actors
+[2017.08.03-15.49.35:400][318]LogSlate: Took 0.000312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.03-15.49.45:697][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Textures/Stairs_Sprite" FILE="../../../../../../indie/indie/Content/World/Textures/Stairs_Sprite.uasset" SILENT=true
+[2017.08.03-15.49.45:707][ 85]LogSavePackage: Save=7.91ms
+[2017.08.03-15.49.45:707][ 85]LogSavePackage: Moving '../../../../../../indie/indie/Saved/Stairs_Sprite0C4AA62E4D445450BD12698AF2DE981C.tmp' to '../../../../../../indie/indie/Content/World/Textures/Stairs_Sprite.uasset'
+[2017.08.03-15.49.45:709][ 85]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Textures/Stairs_Sprite.uasset
+[2017.08.03-15.49.52:110][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/World/Sprites/Stairs_Sprite" FILE="../../../../../../indie/indie/Content/World/Sprites/Stairs_Sprite.uasset" SILENT=true
+[2017.08.03-15.49.52:119][639]LogSavePackage: Save=7.85ms
+[2017.08.03-15.49.52:119][639]LogSavePackage: Moving '../../../../../../indie/indie/Saved/Stairs_Sprite0583FEA34BF500D1AB180CAFE36822A1.tmp' to '../../../../../../indie/indie/Content/World/Sprites/Stairs_Sprite.uasset'
+[2017.08.03-15.49.52:121][639]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/World/Sprites/Stairs_Sprite.uasset
+[2017.08.03-15.50.13:883][784]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-15.50.15:679][944]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-15.50.15:707][944]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.08.03-15.50.15:707][944]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-15.50.15:707][944]PIE: New page: PIE session: 2DSideScrollerExampleMap (Aug 4, 2017, 5:50:15 AM)
+[2017.08.03-15.50.15:707][944]LogPlayLevel: Creating play world package: /Game/Bp/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.08.03-15.50.15:710][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002614s)
+[2017.08.03-15.50.15:710][944]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.08.03-15.50.15:711][944]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2017.08.03-15.50.15:711][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/Bp/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003552s)
+[2017.08.03-15.50.15:730][944]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.03-15.50.15:740][944]LogInit: FAudioDevice initialized.
+[2017.08.03-15.50.15:769][944]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.03-15.50.15:772][944]LogWorld: Bringing World /Game/Bp/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.08.03-22.50.15
+[2017.08.03-15.50.15:772][944]LogWorld: Bringing up level for play took: 0.001623
+[2017.08.03-15.50.15:773][944]PIE: Info Play in editor start time for /Game/Bp/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.221
+[2017.08.03-15.50.15:773][944]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.08.03-15.50.22:718][775]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.08.03-15.50.22:765][775]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.08.03-15.50.38:109][301]Cmd: TRANSACTION UNDO
+[2017.08.03-15.50.38:109][301]LogEditorTransaction: Undo Move World Outliner Items
+[2017.08.03-15.50.51:917][567]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-15.51.01:377][537]Cmd: TRANSACTION UNDO
+[2017.08.03-15.51.01:377][537]LogEditorTransaction: Undo Move Actors
+[2017.08.03-15.51.05:741][896]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-15.51.05:748][896]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.08.03-15.51.05:748][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-15.51.05:749][896]PIE: New page: PIE session: 2DSideScrollerExampleMap (Aug 4, 2017, 5:51:05 AM)
+[2017.08.03-15.51.05:749][896]LogPlayLevel: Creating play world package: /Game/Bp/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.08.03-15.51.05:751][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002569s)
+[2017.08.03-15.51.05:752][896]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.08.03-15.51.05:752][896]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2017.08.03-15.51.05:752][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/Bp/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003430s)
+[2017.08.03-15.51.05:780][896]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.03-15.51.05:789][896]LogInit: FAudioDevice initialized.
+[2017.08.03-15.51.05:818][896]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.03-15.51.05:821][896]LogWorld: Bringing World /Game/Bp/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.08.03-22.51.05
+[2017.08.03-15.51.05:821][896]LogWorld: Bringing up level for play took: 0.001608
+[2017.08.03-15.51.05:822][896]PIE: Info Play in editor start time for /Game/Bp/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.172
+[2017.08.03-15.51.05:822][896]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.08.03-15.51.08:508][217]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.08.03-15.51.08:559][217]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.08.03-15.51.09:465][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Maps/2DSideScrollerExampleMap" FILE="../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.03-15.51.09:646][308]LogSavePackage: Save=161.36ms
+[2017.08.03-15.51.09:646][308]LogSavePackage: Moving '../../../../../../indie/indie/Saved/2DSideScrollerExampleMapD4388D534F3F03882C842AB9C032ECC0.tmp' to '../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap'
+[2017.08.03-15.51.09:648][308]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap
+[2017.08.03-15.51.33:853][371]LogEditorTransaction: Undo Delete current selection
+[2017.08.03-15.51.35:515][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Blueprints/2DSideScrollerCharacter" FILE="../../../../../../indie/indie/Content/Bp/Blueprints/2DSideScrollerCharacter.uasset" SILENT=true
+[2017.08.03-15.51.35:614][455]LogSavePackage: Save=85.60ms
+[2017.08.03-15.51.35:615][455]LogSavePackage: Moving '../../../../../../indie/indie/Saved/2DSideScrollerCharacter23DFE0C9410DE28FB65D90A41F5119B1.tmp' to '../../../../../../indie/indie/Content/Bp/Blueprints/2DSideScrollerCharacter.uasset'
+[2017.08.03-15.51.35:617][455]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Blueprints/2DSideScrollerCharacter.uasset
+[2017.08.03-15.51.36:357][500]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.08.03-15.52.05:950][555]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_13)
+[2017.08.03-15.53.16:144][397]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-15.53.16:948][449]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-15.53.17:483][484]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-15.53.57:875][406]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-15.53.59:039][484]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-15.54.00:332][570]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-15.54.00:754][597]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2017.08.03-15.54.08:505][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Maps/2DSideScrollerExampleMap" FILE="../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.03-15.54.08:653][155]LogSavePackage: Save=129.57ms
+[2017.08.03-15.54.08:653][155]LogSavePackage: Moving '../../../../../../indie/indie/Saved/2DSideScrollerExampleMap0D56C6F74036FB18501CE39F5500BC33.tmp' to '../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap'
+[2017.08.03-15.54.08:656][155]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap
+[2017.08.03-15.54.20:525][994]LogMetaData: Removing '/Game/Bp/Blueprints/Plyer.Plyer_C' ref from Metadata '/Game/Bp/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.54.20:525][994]LogMetaData: Removing '/Game/Bp/Blueprints/Plyer.SKEL_Plyer_C' ref from Metadata '/Game/Bp/Blueprints/2DSideScrollerCharacter.PackageMetaData'
+[2017.08.03-15.54.20:540][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Blueprints/Plyer" FILE="../../../../../../indie/indie/Content/Bp/Blueprints/Plyer.uasset" SILENT=true
+[2017.08.03-15.54.20:627][994]LogSavePackage: Save=86.32ms
+[2017.08.03-15.54.20:628][994]LogSavePackage: Moving '../../../../../../indie/indie/Saved/Plyer8495945A497A6FF8B24273A753261B90.tmp' to '../../../../../../indie/indie/Content/Bp/Blueprints/Plyer.uasset'
+[2017.08.03-15.54.20:630][994]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Blueprints/Plyer.uasset
+[2017.08.03-15.54.20:633][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Blueprints/2DSideScrollerCharacter" FILE="../../../../../../indie/indie/Content/Bp/Blueprints/2DSideScrollerCharacter.uasset" SILENT=true
+[2017.08.03-15.54.20:640][994]LogSavePackage: Save=4.84ms
+[2017.08.03-15.54.20:640][994]LogSavePackage: Moving '../../../../../../indie/indie/Saved/2DSideScrollerCharacterDC1D82C74578A0AA6A5963A8F16D2940.tmp' to '../../../../../../indie/indie/Content/Bp/Blueprints/2DSideScrollerCharacter.uasset'
+[2017.08.03-15.54.20:643][994]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Blueprints/2DSideScrollerCharacter.uasset
+[2017.08.03-15.54.23:887][205]LogMetaData: Removing '/Game/Bp/Blueprints/Player.Player_C' ref from Metadata '/Game/Bp/Blueprints/Plyer.PackageMetaData'
+[2017.08.03-15.54.23:887][205]LogMetaData: Removing '/Game/Bp/Blueprints/Player.SKEL_Player_C' ref from Metadata '/Game/Bp/Blueprints/Plyer.PackageMetaData'
+[2017.08.03-15.54.23:902][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Blueprints/Player" FILE="../../../../../../indie/indie/Content/Bp/Blueprints/Player.uasset" SILENT=true
+[2017.08.03-15.54.23:972][205]LogSavePackage: Save=68.46ms
+[2017.08.03-15.54.23:972][205]LogSavePackage: Moving '../../../../../../indie/indie/Saved/Player79C3C3154E5D28D8A1C4309828D46685.tmp' to '../../../../../../indie/indie/Content/Bp/Blueprints/Player.uasset'
+[2017.08.03-15.54.23:973][205]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Blueprints/Player.uasset
+[2017.08.03-15.54.24:104][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Blueprints/2DSideScrollerCharacter" FILE="../../../../../../indie/indie/Content/Bp/Blueprints/2DSideScrollerCharacter.uasset" SILENT=true
+[2017.08.03-15.54.24:110][205]LogSavePackage: Save=4.47ms
+[2017.08.03-15.54.24:110][205]LogSavePackage: Moving '../../../../../../indie/indie/Saved/2DSideScrollerCharacter050F3A3642B474543E0EF99C0B6F1FDE.tmp' to '../../../../../../indie/indie/Content/Bp/Blueprints/2DSideScrollerCharacter.uasset'
+[2017.08.03-15.54.24:111][205]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Blueprints/2DSideScrollerCharacter.uasset
+[2017.08.03-15.54.25:169][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Blueprints/Player" FILE="../../../../../../indie/indie/Content/Bp/Blueprints/Player.uasset" SILENT=true
+[2017.08.03-15.54.25:241][274]LogSavePackage: Save=66.17ms
+[2017.08.03-15.54.25:241][274]LogSavePackage: Moving '../../../../../../indie/indie/Saved/Player22F847D84F9521221FD6EBA2C02DF09E.tmp' to '../../../../../../indie/indie/Content/Bp/Blueprints/Player.uasset'
+[2017.08.03-15.54.25:242][274]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Blueprints/Player.uasset
+[2017.08.03-15.54.26:091][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Blueprints/2DSideScrollerGameMode" FILE="../../../../../../indie/indie/Content/Bp/Blueprints/2DSideScrollerGameMode.uasset" SILENT=true
+[2017.08.03-15.54.26:105][330]LogSavePackage: Save=7.92ms
+[2017.08.03-15.54.26:105][330]LogSavePackage: Moving '../../../../../../indie/indie/Saved/2DSideScrollerGameMode879715924BA4EE1971A0828969E08A69.tmp' to '../../../../../../indie/indie/Content/Bp/Blueprints/2DSideScrollerGameMode.uasset'
+[2017.08.03-15.54.26:107][330]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Blueprints/2DSideScrollerGameMode.uasset
+[2017.08.03-15.54.31:085][684]LogMetaData: Removing '/Game/Bp/Maps/Level01.SKEL_Level01_C' ref from Metadata '/Game/Bp/Maps/2DSideScrollerExampleMap./Game/Bp/Maps/2DSideScrollerExampleMap_BuiltData.PackageMetaData'
+[2017.08.03-15.54.31:085][684]LogMetaData: Removing '/Game/Bp/Maps/Level01.Level01_C' ref from Metadata '/Game/Bp/Maps/2DSideScrollerExampleMap./Game/Bp/Maps/2DSideScrollerExampleMap_BuiltData.PackageMetaData'
+[2017.08.03-15.54.31:148][684]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Maps/Level01" FILE="../../../../../../indie/indie/Content/Bp/Maps/Level01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.03-15.54.31:295][684]LogSavePackage: Save=130.45ms
+[2017.08.03-15.54.31:295][684]LogSavePackage: Moving '../../../../../../indie/indie/Saved/Level01C3D1381A40F81DA5464E819F6D2A9895.tmp' to '../../../../../../indie/indie/Content/Bp/Maps/Level01.umap'
+[2017.08.03-15.54.31:297][684]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Maps/Level01.umap
+[2017.08.03-15.54.31:311][684]LogFileHelpers: Saving map 'Level01' took 0.214
+[2017.08.03-15.54.42:470][496]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Bp/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_BuiltData'
+[2017.08.03-15.54.50:041][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Maps/Level01" FILE="../../../../../../indie/indie/Content/Bp/Maps/Level01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.03-15.54.50:192][952]LogSavePackage: Save=129.29ms
+[2017.08.03-15.54.50:192][952]LogSavePackage: Moving '../../../../../../indie/indie/Saved/Level0196F51AD643BE4898127DB289E9ABE024.tmp' to '../../../../../../indie/indie/Content/Bp/Maps/Level01.umap'
+[2017.08.03-15.54.50:193][952]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Maps/Level01.umap
+[2017.08.03-15.55.03:501][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Blueprints/Player" FILE="../../../../../../indie/indie/Content/Bp/Blueprints/Player.uasset" SILENT=true
+[2017.08.03-15.55.03:571][947]LogSavePackage: Save=67.50ms
+[2017.08.03-15.55.03:571][947]LogSavePackage: Moving '../../../../../../indie/indie/Saved/PlayerD8FEC44F40D545B894046C842BBAE997.tmp' to '../../../../../../indie/indie/Content/Bp/Blueprints/Player.uasset'
+[2017.08.03-15.55.03:572][947]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Blueprints/Player.uasset
+[2017.08.03-15.55.27:199][524]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-15.55.28:433][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Maps/Level01" FILE="../../../../../../indie/indie/Content/Bp/Maps/Level01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.03-15.55.28:581][602]LogSavePackage: Save=126.47ms
+[2017.08.03-15.55.28:581][602]LogSavePackage: Moving '../../../../../../indie/indie/Saved/Level01672CC1C744581543C6AFA4B13593A28C.tmp' to '../../../../../../indie/indie/Content/Bp/Maps/Level01.umap'
+[2017.08.03-15.55.28:581][602]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Maps/Level01.umap
+[2017.08.03-15.55.29:451][659]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_13)
+[2017.08.03-15.55.29:950][690]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-15.55.30:611][732]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-15.56.55:626][955]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_14)
+[2017.08.03-15.57.31:621][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Maps/Level01" FILE="../../../../../../indie/indie/Content/Bp/Maps/Level01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.03-15.57.31:769][272]LogSavePackage: Save=130.00ms
+[2017.08.03-15.57.31:769][272]LogSavePackage: Moving '../../../../../../indie/indie/Saved/Level01F09555F74CFA82A25B4381B2853542C8.tmp' to '../../../../../../indie/indie/Content/Bp/Maps/Level01.umap'
+[2017.08.03-15.57.31:771][272]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Maps/Level01.umap
+[2017.08.03-15.58.16:510][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Blueprints/Player" FILE="../../../../../../indie/indie/Content/Bp/Blueprints/Player.uasset" SILENT=true
+[2017.08.03-15.58.16:582][332]LogSavePackage: Save=69.31ms
+[2017.08.03-15.58.16:582][332]LogSavePackage: Moving '../../../../../../indie/indie/Saved/Player6365FDA84E52C14DB2A8A5A7DFFDBCD7.tmp' to '../../../../../../indie/indie/Content/Bp/Blueprints/Player.uasset'
+[2017.08.03-15.58.16:585][332]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Blueprints/Player.uasset
+[2017.08.03-15.58.33:463][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Blueprints/Player" FILE="../../../../../../indie/indie/Content/Bp/Blueprints/Player.uasset" SILENT=true
+[2017.08.03-15.58.33:548][571]LogSavePackage: Save=82.75ms
+[2017.08.03-15.58.33:548][571]LogSavePackage: Moving '../../../../../../indie/indie/Saved/PlayerB5BCBFF845D4F273DCC3FF9884DE64F7.tmp' to '../../../../../../indie/indie/Content/Bp/Blueprints/Player.uasset'
+[2017.08.03-15.58.33:552][571]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Blueprints/Player.uasset
+[2017.08.03-15.59.13:312][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Blueprints/Player" FILE="../../../../../../indie/indie/Content/Bp/Blueprints/Player.uasset" SILENT=true
+[2017.08.03-15.59.13:381][393]LogSavePackage: Save=66.58ms
+[2017.08.03-15.59.13:381][393]LogSavePackage: Moving '../../../../../../indie/indie/Saved/PlayerDC8F2A4B4F971BC2BAEEB7981511ADDE.tmp' to '../../../../../../indie/indie/Content/Bp/Blueprints/Player.uasset'
+[2017.08.03-15.59.13:383][393]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Blueprints/Player.uasset
+[2017.08.03-15.59.46:051][497]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-15.59.46:708][538]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-15.59.47:162][567]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-15.59.47:571][593]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-15.59.57:521][310]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-15.59.57:533][310]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-15.59.57:533][310]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-15.59.57:533][310]PIE: New page: PIE session: Level01 (Aug 4, 2017, 5:59:57 AM)
+[2017.08.03-15.59.57:533][310]LogPlayLevel: Creating play world package: /Game/Bp/Maps/UEDPIE_0_Level01
+[2017.08.03-15.59.57:536][310]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002634s)
+[2017.08.03-15.59.57:536][310]LogAIModule: Creating AISystem for world Level01
+[2017.08.03-15.59.57:536][310]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2017.08.03-15.59.57:536][310]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Bp/Maps/Level01.Level01 to /Game/Bp/Maps/UEDPIE_0_Level01.Level01 (0.003578s)
+[2017.08.03-15.59.57:557][310]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.03-15.59.57:566][310]LogInit: FAudioDevice initialized.
+[2017.08.03-15.59.57:595][310]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.03-15.59.57:597][310]LogWorld: Bringing World /Game/Bp/Maps/UEDPIE_0_Level01.Level01 up for play (max tick rate 0) at 2017.08.03-22.59.57
+[2017.08.03-15.59.57:598][310]LogWorld: Bringing up level for play took: 0.001744
+[2017.08.03-15.59.57:599][310]PIE: Info Play in editor start time for /Game/Bp/Maps/UEDPIE_0_Level01 -0.395
+[2017.08.03-15.59.57:599][310]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.00.06:281][ 47]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.00.06:349][ 47]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.00.06:636][ 57]Cmd: SELECT NONE
+[2017.08.03-16.00.11:166][367]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_13)
+[2017.08.03-16.00.15:037][613]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-16.00.19:387][855]LogEditorViewport: Clicking Background
+[2017.08.03-16.00.19:715][879]Cmd: TRANSACTION UNDO
+[2017.08.03-16.00.19:715][879]LogEditorTransaction: Undo Clicking Background
+[2017.08.03-16.00.20:141][897]Cmd: TRANSACTION UNDO
+[2017.08.03-16.00.20:141][897]LogEditorTransaction: Undo Set actor location
+[2017.08.03-16.00.21:241][952]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-16.00.30:783][591]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-16.00.31:437][634]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-16.00.38:401][ 67]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-16.00.38:408][ 67]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.00.38:408][ 67]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-16.00.38:409][ 67]PIE: New page: PIE session: Level01 (Aug 4, 2017, 6:00:38 AM)
+[2017.08.03-16.00.38:409][ 67]LogPlayLevel: Creating play world package: /Game/Bp/Maps/UEDPIE_0_Level01
+[2017.08.03-16.00.38:411][ 67]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002550s)
+[2017.08.03-16.00.38:412][ 67]LogAIModule: Creating AISystem for world Level01
+[2017.08.03-16.00.38:412][ 67]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2017.08.03-16.00.38:412][ 67]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Bp/Maps/Level01.Level01 to /Game/Bp/Maps/UEDPIE_0_Level01.Level01 (0.003525s)
+[2017.08.03-16.00.38:439][ 67]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.03-16.00.38:448][ 67]LogInit: FAudioDevice initialized.
+[2017.08.03-16.00.38:481][ 67]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.03-16.00.38:484][ 67]LogWorld: Bringing World /Game/Bp/Maps/UEDPIE_0_Level01.Level01 up for play (max tick rate 0) at 2017.08.03-23.00.38
+[2017.08.03-16.00.38:484][ 67]LogWorld: Bringing up level for play took: 0.001637
+[2017.08.03-16.00.38:485][ 67]PIE: Info Play in editor start time for /Game/Bp/Maps/UEDPIE_0_Level01 0.491
+[2017.08.03-16.00.38:485][ 67]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.00.44:818][583]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.00.44:886][583]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.00.58:407][430]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-16.00.58:415][430]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.00.58:415][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-16.00.58:415][430]PIE: New page: PIE session: Level01 (Aug 4, 2017, 6:00:58 AM)
+[2017.08.03-16.00.58:415][430]LogPlayLevel: Creating play world package: /Game/Bp/Maps/UEDPIE_0_Level01
+[2017.08.03-16.00.58:417][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002506s)
+[2017.08.03-16.00.58:418][430]LogAIModule: Creating AISystem for world Level01
+[2017.08.03-16.00.58:418][430]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2017.08.03-16.00.58:418][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Bp/Maps/Level01.Level01 to /Game/Bp/Maps/UEDPIE_0_Level01.Level01 (0.003311s)
+[2017.08.03-16.00.58:441][430]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.03-16.00.58:450][430]LogInit: FAudioDevice initialized.
+[2017.08.03-16.00.58:478][430]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.03-16.00.58:481][430]LogWorld: Bringing World /Game/Bp/Maps/UEDPIE_0_Level01.Level01 up for play (max tick rate 0) at 2017.08.03-23.00.58
+[2017.08.03-16.00.58:481][430]LogWorld: Bringing up level for play took: 0.001655
+[2017.08.03-16.00.58:482][430]PIE: Info Play in editor start time for /Game/Bp/Maps/UEDPIE_0_Level01 0.489
+[2017.08.03-16.00.58:483][430]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.01.03:598][866]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.01.03:665][866]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.01.09:844][254]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-16.01.09:855][254]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.01.09:855][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-16.01.09:855][254]PIE: New page: PIE session: Level01 (Aug 4, 2017, 6:01:09 AM)
+[2017.08.03-16.01.09:855][254]LogPlayLevel: Creating play world package: /Game/Bp/Maps/UEDPIE_0_Level01
+[2017.08.03-16.01.09:858][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002419s)
+[2017.08.03-16.01.09:858][254]LogAIModule: Creating AISystem for world Level01
+[2017.08.03-16.01.09:858][254]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2017.08.03-16.01.09:858][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Bp/Maps/Level01.Level01 to /Game/Bp/Maps/UEDPIE_0_Level01.Level01 (0.003226s)
+[2017.08.03-16.01.09:879][254]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.03-16.01.09:888][254]LogInit: FAudioDevice initialized.
+[2017.08.03-16.01.09:919][254]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.03-16.01.09:922][254]LogWorld: Bringing World /Game/Bp/Maps/UEDPIE_0_Level01.Level01 up for play (max tick rate 0) at 2017.08.03-23.01.09
+[2017.08.03-16.01.09:922][254]LogWorld: Bringing up level for play took: 0.001708
+[2017.08.03-16.01.09:923][254]PIE: Info Play in editor start time for /Game/Bp/Maps/UEDPIE_0_Level01 -0.071
+[2017.08.03-16.01.09:923][254]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.01.13:841][586]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.01.13:909][586]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.01.36:436][985]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-16.01.36:445][985]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.01.36:445][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-16.01.36:446][985]PIE: New page: PIE session: Level01 (Aug 4, 2017, 6:01:36 AM)
+[2017.08.03-16.01.36:446][985]LogPlayLevel: Creating play world package: /Game/Bp/Maps/UEDPIE_0_Level01
+[2017.08.03-16.01.36:448][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002712s)
+[2017.08.03-16.01.36:449][985]LogAIModule: Creating AISystem for world Level01
+[2017.08.03-16.01.36:449][985]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2017.08.03-16.01.36:449][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Bp/Maps/Level01.Level01 to /Game/Bp/Maps/UEDPIE_0_Level01.Level01 (0.003662s)
+[2017.08.03-16.01.36:469][985]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.03-16.01.36:478][985]LogInit: FAudioDevice initialized.
+[2017.08.03-16.01.36:509][985]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.03-16.01.36:512][985]LogWorld: Bringing World /Game/Bp/Maps/UEDPIE_0_Level01.Level01 up for play (max tick rate 0) at 2017.08.03-23.01.36
+[2017.08.03-16.01.36:513][985]LogWorld: Bringing up level for play took: 0.001725
+[2017.08.03-16.01.36:514][985]PIE: Info Play in editor start time for /Game/Bp/Maps/UEDPIE_0_Level01 0.52
+[2017.08.03-16.01.36:514][985]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.01.39:041][198]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.01.39:109][198]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.01.42:849][418]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-16.01.42:857][418]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.01.42:857][418]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-16.01.42:857][418]PIE: New page: PIE session: Level01 (Aug 4, 2017, 6:01:42 AM)
+[2017.08.03-16.01.42:857][418]LogPlayLevel: Creating play world package: /Game/Bp/Maps/UEDPIE_0_Level01
+[2017.08.03-16.01.42:860][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002482s)
+[2017.08.03-16.01.42:860][418]LogAIModule: Creating AISystem for world Level01
+[2017.08.03-16.01.42:860][418]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2017.08.03-16.01.42:861][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Bp/Maps/Level01.Level01 to /Game/Bp/Maps/UEDPIE_0_Level01.Level01 (0.003490s)
+[2017.08.03-16.01.42:887][418]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.03-16.01.42:896][418]LogInit: FAudioDevice initialized.
+[2017.08.03-16.01.42:928][418]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.03-16.01.42:930][418]LogWorld: Bringing World /Game/Bp/Maps/UEDPIE_0_Level01.Level01 up for play (max tick rate 0) at 2017.08.03-23.01.42
+[2017.08.03-16.01.42:931][418]LogWorld: Bringing up level for play took: 0.001642
+[2017.08.03-16.01.42:932][418]PIE: Info Play in editor start time for /Game/Bp/Maps/UEDPIE_0_Level01 0.938
+[2017.08.03-16.01.42:932][418]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.01.46:112][689]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.01.46:179][689]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.02.13:949][508]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-16.02.13:957][508]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.02.13:957][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-16.02.13:957][508]PIE: New page: PIE session: Level01 (Aug 4, 2017, 6:02:13 AM)
+[2017.08.03-16.02.13:957][508]LogPlayLevel: Creating play world package: /Game/Bp/Maps/UEDPIE_0_Level01
+[2017.08.03-16.02.13:960][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002433s)
+[2017.08.03-16.02.13:960][508]LogAIModule: Creating AISystem for world Level01
+[2017.08.03-16.02.13:961][508]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2017.08.03-16.02.13:961][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Bp/Maps/Level01.Level01 to /Game/Bp/Maps/UEDPIE_0_Level01.Level01 (0.003260s)
+[2017.08.03-16.02.13:982][508]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.03-16.02.13:991][508]LogInit: FAudioDevice initialized.
+[2017.08.03-16.02.14:025][508]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.03-16.02.14:030][508]LogWorld: Bringing World /Game/Bp/Maps/UEDPIE_0_Level01.Level01 up for play (max tick rate 0) at 2017.08.03-23.02.14
+[2017.08.03-16.02.14:031][508]LogWorld: Bringing up level for play took: 0.003332
+[2017.08.03-16.02.14:033][508]PIE: Info Play in editor start time for /Game/Bp/Maps/UEDPIE_0_Level01 0.039
+[2017.08.03-16.02.14:033][508]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.02.18:856][917]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.02.18:918][917]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.02.24:618][285]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_13)
+[2017.08.03-16.02.30:733][725]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-16.03.00:744][532]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-16.03.00:755][532]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.03.00:755][532]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-16.03.00:755][532]PIE: New page: PIE session: Level01 (Aug 4, 2017, 6:03:00 AM)
+[2017.08.03-16.03.00:756][532]LogPlayLevel: Creating play world package: /Game/Bp/Maps/UEDPIE_0_Level01
+[2017.08.03-16.03.00:758][532]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002570s)
+[2017.08.03-16.03.00:759][532]LogAIModule: Creating AISystem for world Level01
+[2017.08.03-16.03.00:759][532]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2017.08.03-16.03.00:759][532]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Bp/Maps/Level01.Level01 to /Game/Bp/Maps/UEDPIE_0_Level01.Level01 (0.003694s)
+[2017.08.03-16.03.00:780][532]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.03-16.03.00:789][532]LogInit: FAudioDevice initialized.
+[2017.08.03-16.03.00:818][532]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.03-16.03.00:823][532]LogWorld: Bringing World /Game/Bp/Maps/UEDPIE_0_Level01.Level01 up for play (max tick rate 0) at 2017.08.03-23.03.00
+[2017.08.03-16.03.00:824][532]LogWorld: Bringing up level for play took: 0.003307
+[2017.08.03-16.03.00:826][532]PIE: Info Play in editor start time for /Game/Bp/Maps/UEDPIE_0_Level01 0.832
+[2017.08.03-16.03.00:826][532]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.03.03:503][758]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.03.03:583][758]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.03.05:329][880]LogEditorViewport: Clicking on Actor (LMB): Player_C (2DSideScrollerCharacter)
+[2017.08.03-16.03.15:813][499]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-16.03.17:429][608]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-16.03.27:426][212]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.03-16.03.27:437][212]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.03.27:437][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.03-16.03.27:437][212]PIE: New page: PIE session: Level01 (Aug 4, 2017, 6:03:27 AM)
+[2017.08.03-16.03.27:437][212]LogPlayLevel: Creating play world package: /Game/Bp/Maps/UEDPIE_0_Level01
+[2017.08.03-16.03.27:440][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002545s)
+[2017.08.03-16.03.27:440][212]LogAIModule: Creating AISystem for world Level01
+[2017.08.03-16.03.27:441][212]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2017.08.03-16.03.27:441][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Bp/Maps/Level01.Level01 to /Game/Bp/Maps/UEDPIE_0_Level01.Level01 (0.003367s)
+[2017.08.03-16.03.27:461][212]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.03-16.03.27:470][212]LogInit: FAudioDevice initialized.
+[2017.08.03-16.03.27:503][212]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.08.03-16.03.27:506][212]LogWorld: Bringing World /Game/Bp/Maps/UEDPIE_0_Level01.Level01 up for play (max tick rate 0) at 2017.08.03-23.03.27
+[2017.08.03-16.03.27:506][212]LogWorld: Bringing up level for play took: 0.001661
+[2017.08.03-16.03.27:507][212]PIE: Info Play in editor start time for /Game/Bp/Maps/UEDPIE_0_Level01 -0.487
+[2017.08.03-16.03.27:507][212]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.03.45:352][734]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.03.45:433][734]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Bp/Maps/Level01.Level01:PersistentLevel' has LevelScriptBlueprint '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01' with GeneratedClass '/Game/Bp/Maps/Level01.Level01_C' with ClassGeneratedBy '/Game/Bp/Maps/Level01.Level01:PersistentLevel.Level01'
+[2017.08.03-16.03.54:880][364]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.03-16.03.55:236][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Maps/Level01" FILE="../../../../../../indie/indie/Content/Bp/Maps/Level01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.03-16.03.55:387][383]LogSavePackage: Save=128.63ms
+[2017.08.03-16.03.55:387][383]LogSavePackage: Moving '../../../../../../indie/indie/Saved/Level01145C88AB4CF41B93CAF06AA8B1432C4E.tmp' to '../../../../../../indie/indie/Content/Bp/Maps/Level01.umap'
+[2017.08.03-16.03.55:389][383]LogSavePackage:Display: Finished SavePackage ../../../../../../indie/indie/Content/Bp/Maps/Level01.umap
+[2017.08.03-16.03.57:287][512]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.03-16.03.59:634][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Maps/2DSideScrollerExampleMap" FILE="../../../../../../indie/indie/Content/Bp/Maps/2DSideScrollerExampleMap.umap" SILENT=true
+[2017.08.03-16.03.59:851][621]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.210 s
+[2017.08.03-16.03.59:851][621]LogOutputDevice:Error: === Handled ensure: ===
+[2017.08.03-16.03.59:851][621]LogOutputDevice:Error: 
+[2017.08.03-16.03.59:851][621]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\SavePackage.cpp] [Line: 4392]
+[2017.08.03-16.03.59:851][621]LogOutputDevice:Error: Attempting to save a map package '/Game/Bp/Maps/2DSideScrollerExampleMap' that does not contain a map object.
+[2017.08.03-16.03.59:851][621]LogOutputDevice:Error: Stack: 
+[2017.08.03-16.03.59:851][621]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000009725E2B6
+[2017.08.03-16.03.59:851][621]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000009700B8C2
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000097021E86
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000A184E769
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000909FB7B0
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000909FC0F8
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000090A3E2C0
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000090A3AD08
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000912416B6
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000090CD4427
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000090D000A1
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000090CD4978
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000090D0D673
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-MainFrame.dll!0x0000000083368F9E
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-MainFrame.dll!0x00000000833694EE
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-SlateCore.dll!0x00000000AD4D5C05
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000009696DFA1
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000096914CB2
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000096915D99
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000009697E9F5
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000096B08F57
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000096B35D7B
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000096959E9C
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000096929835
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000969CE5E2
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000969B720F
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000969A8391
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000009725175B
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000009723B7D1
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000972533DB
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000097237B22
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: USER32.dll!0x00000000D89B1C24
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: USER32.dll!0x00000000D89B156C
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000097253CE6
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor.exe!0x00000000A507DB44
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor.exe!0x00000000A506F0B0
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor.exe!0x00000000A506F12A
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor.exe!0x00000000A5080CF9
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: UE4Editor.exe!0x00000000A50825F7
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: KERNEL32.DLL!0x00000000D6F68364
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: ntdll.dll!0x00000000D9A370D1
+[2017.08.03-16.03.59:852][621]LogOutputDevice:Error: 
+[2017.08.03-16.03.59:859][621]LogStats:                SubmitErrorReport -  0.000 s
